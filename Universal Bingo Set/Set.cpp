@@ -10,7 +10,7 @@ template <typename T>
 Set<T>::Set(){
     head = new Node();
     tail = new Node();
-    //cursor = NULL;
+
 
     head->next = tail;
     tail->prev = head;
@@ -22,7 +22,7 @@ Set<T>::Set(){
 
 template <typename T>
 Set<T>::~Set(){
-    //make the set empty
+    
     Node* current = head->next;
     Node* n = NULL;
 
@@ -32,7 +32,7 @@ Set<T>::~Set(){
         current = n;
     }
 
-    //numEntries = 0;
+    
     head->next = tail;
     tail->prev = head;
 
@@ -65,7 +65,7 @@ bool Set<T>::isIn(const T& elem) const{
 
 template <typename T>
 bool Set<T>::add(const T& elem) { 
-    //need to check if in thier on not
+
     if(isIn(elem)){
         return true;
     }
