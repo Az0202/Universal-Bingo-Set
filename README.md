@@ -5,14 +5,10 @@ The Universal Bingo/Universal Set project, developed during my studies at Piedmo
 
 
 ## Features:
-* # Generic Implementation:
-                         Supports any data type, allowing flexible usage across different scenarios.
-* # Bingo Ball Example:
-                         Includes a specialized implementation for handling Bingo Balls, demonstrating the set with a real-world use case.
-* # Efficiency Analysis: 
-                        Each function within the Set class has been analyzed for efficiency, providing insights into the computational complexity.
-* # Standard Compliance: 
-                        Conforms to predefined header files and coding standards, ensuring compatibility and reliability.
+* Generic Implementation: Supports any data type, allowing flexible usage across different scenarios.
+* Bingo Ball Example: Includes a specialized implementation for handling Bingo Balls, demonstrating the set with a real-world use case.
+* Efficiency Analysis: Each function within the Set class has been analyzed for efficiency, providing insights into the computational complexity.
+* Standard Compliance: Conforms to predefined header files and coding standards, ensuring compatibility and reliability.
 
 ## Technologies Used:
 * C++
