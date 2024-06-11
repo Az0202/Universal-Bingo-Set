@@ -47,10 +47,5 @@ private:
     //outputs all of the contents of the set
     template <typename T>
     ostream &operator<<(std::ostream& out, Set<T>& p);
-/*{
-    while (!p.isEmpty())
-out << p.remove() << " ";
-out << endl;  //I need add a code that put all the element bach in the set because when we desplay it il well delate all the elements
-     return out;
-} */
+
 #endif 
